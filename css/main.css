@@ -1,0 +1,47 @@
+/* selector */
+body {
+  /* changes background color */
+  background-color: rgb(123,33,120);
+  /* changes text color */
+  color: orange;
+  /* changes text font */
+  font-family: sans-serif;
+  /* changes font size */
+  font-size: 50px;
+  /* changes margin for everything in body */
+  margin: 100px;
+
+  letter-spacing: 40px;
+
+
+
+}
+
+h1{
+  text-align: center;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+
+}
+a:hover{
+  color: pink;
+  text-decoration: underline;
+}
+ul{
+  padding: 0;
+  list-style: georgian;
+  letter-spacing: 100px;
+}
+
+#images {
+  margin 0;
+  text-align: center;
+}
+
+#images img{
+  max-width: 100%;
+  margin: 25px 0;
+}
