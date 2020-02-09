@@ -1,9 +1,19 @@
 body {
-  
+
 }
 sm{
   font-size: 200%;
 }
 w{
   font-weight: bold;
+}
+
+c{
+  color: red;
+}
+f{
+  font-style: italic;
+}
+s{
+  font-family: fantasy;
 }
