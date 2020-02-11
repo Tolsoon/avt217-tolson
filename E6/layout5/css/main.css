@@ -1,0 +1,49 @@
+body{
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: orangered;
+}
+
+.container{
+  width: 130vw;
+margin: -123px -10%;
+}
+
+
+
+.block1, .block2,.block3, .block4{
+
+
+    float: right;
+    opacity: .7;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.block1{
+  width: 1000px;
+    height: 1220px;
+  border-color: black;
+   margin: 200px;
+}
+
+.block2{
+  width: 150px;
+    height: 1000px;
+  border-color: blue;
+   margin: 00px;
+}
+
+.block3{
+  width: 100px;
+    height: 200px;
+  border-color: green;
+   margin: 10px;
+}
+
+.block4{
+  width: 200px;
+    height: 400px;
+  border-color: red;
+   margin: -50px;
+}

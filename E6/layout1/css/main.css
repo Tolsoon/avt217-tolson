@@ -1,0 +1,91 @@
+body{
+  margin: 10px;
+  overflow-x: hidden;
+  background-color: indigo;
+}
+
+.container{
+  width: 130vw;
+  margin: -10px -10%;
+}
+
+
+
+.block1, .block2,.block3, .block4{
+
+  width: 100px;
+  height:100px;
+  float: right;
+}
+
+.block1{
+  width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid yellow;
+    border-left: 60px solid magenta;
+    border-bottom: 60px solid pink;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 160px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 160px;
+    background-color: cyan;
+}
+
+.block2{
+  width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid yellow;
+    border-left: 60px solid red;
+    border-bottom: 60px solid orange;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: blue;
+}
+
+.block3{
+  background-color: lime;
+  border-color: green;
+  margin: 5px;
+}
+
+.block4{
+  box-shadow: 0 0 0 1em red,
+     0 1em 0 1em red,
+     -2.5em 1.5em 0 .5em red,
+     2.5em 1.5em 0 .5em red,
+     -3em -3em 0 0 red,
+     3em -3em 0 0 red,
+     -2em -2em 0 0 red,
+     2em -2em 0 0 red,
+     -3em -1em 0 0 red,
+     -2em -1em 0 0 red,
+     2em -1em 0 0 red,
+     3em -1em 0 0 red,
+     -4em 0 0 0 red,
+     -3em 0 0 0 red,
+     3em 0 0 0 red,
+     4em 0 0 0 red,
+     -5em 1em 0 0 red,
+     -4em 1em 0 0 red,
+     4em 1em 0 0 red,
+     5em 1em 0 0 red,
+     -5em 2em 0 0 red,
+     5em 2em 0 0 red,
+     -5em 3em 0 0 red,
+     -3em 3em 0 0 red,
+     3em 3em 0 0 red,
+     5em 3em 0 0 red,
+     -2em 4em 0 0 red,
+     -1em 4em 0 0 red,
+     1em 4em 0 0 red,
+     2em 4em 0 0 red;
+     background: red;
+     width: 2em;
+     height: 4em;
+     overflow: hidden;
+     margin: 50px 0 70px 65px;
+}

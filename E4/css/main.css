@@ -1,19 +1,26 @@
-body {
 
+.heading1{
+  font-size: 100px;
 }
-sm{
+
+.container{
+  width: 50%;
+  margin: 100px auto;
+}
+
+.sm{
   font-size: 200%;
 }
-w{
+.w{
   font-weight: bold;
 }
 
-c{
+.c{
   color: red;
 }
-f{
+.f{
   font-style: italic;
 }
-s{
+.s{
   font-family: fantasy;
 }
