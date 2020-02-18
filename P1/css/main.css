@@ -1,10 +1,25 @@
 body{
+  background-color: LightGoldenRodYellow;
+  color: dimgrey;
+
+
+}
+.container{
   width: 50%;
   margin: 100px auto;
-  font-family: 'Tinos', serif;
 }
 
 a{
-  color: purple;
+  color: plum;
   text-decoration: none;
+  transition: color 1s ease;
+
+}
+a:hover{
+  color: indigo;
+}
+
+
+h1.google{
+  font-family: 'Frank Ruhl Libre', serif;
 }
