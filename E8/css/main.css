@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+}
+
+.board{
+  width:800px;
+  margin: 100px auto;
+  /** margins: three numbers = top right/left bottom
+      margins: one number is all sides
+      margins: four numbers = top right bottom left
+      auto margins will find margins based on the width you set**/
+}
+
+.red, .white{
+  height:100px;
+  width: 100px;
+  float: left;
+}
+
+.red{
+  background-color: maroon;
+}
+
+.white{
+  background-color: seashell;
+}
+
+
+
+
+.container{
+  width: 900px;
+  margin: 100px auto;
+}
+
+.header, .subhead, .footer, .column1, .column2{
+  float: left;
+  width: 900px;
+  background-color: red;
+
+}
+.header{
+  height: 100px;
+}
+.subhead{
+  height: 50px;
+  margin: 25px 0px;
+}
+
+.column1 , .column2{
+  height: 600px;
+  width: calc(850px / 3);
+}
+
+.column2{
+  margin: 0px 25px;
+}
+
+.footer{
+  height: 175px;
+  margin: 25px 0 0 0;
+}
