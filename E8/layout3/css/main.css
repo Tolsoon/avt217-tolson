@@ -1,0 +1,39 @@
+body{
+  margin:0;
+}
+
+.container{
+  width:800px;
+  margin: 100px auto;
+
+}
+
+.header , .bigtext, .textsubhead, .righttext{
+  background-color: red;
+  float: left;
+}
+
+.header{
+  width:800px;
+  height: 200px;
+  margin-bottom: 100px;
+}
+
+
+.bigtext{
+  height: 500px;
+  width:575px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.textsubhead{
+  height: 50px;
+  width:575px;
+  margin-bottom: 100px;
+}
+.righttext{
+  width: 200px;
+  height: 250px;
+
+}

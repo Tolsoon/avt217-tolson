@@ -1,0 +1,57 @@
+body{
+  margin:0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container{
+  width:850px;
+  margin: 100px auto;
+
+
+}
+
+.smallcontainer{
+margin-left: 100px;
+  width: 850px;
+  height: 450px;
+
+}
+.side , .top , .court, .court2{
+  float: left;
+}
+
+.side{
+  width: 100px;
+  height: 425px;
+  background-color: red;
+  margin-bottom: 25px;
+}
+
+.top{
+  width: 600px;
+  height: 100px;
+  background-color: red;
+  margin: 0px 25px 0px 25px;
+}
+.court{
+  width: 275px;
+  height: 300px;
+  background-color: red;
+  margin: 25px 25px 25px 25px;
+}
+
+.court2{
+  width: 275px;
+  height: 300px;
+  background-color: red;
+  margin: 0px 25px 25px 25px;
+}
