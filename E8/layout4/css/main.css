@@ -18,11 +18,16 @@ body{
 
 
 }
-
+.sidecontainer{
+width: 100px;
+height: 425;
+float: left;
+}
 .smallcontainer{
-margin-left: 100px;
-  width: 850px;
+
+  width: 650px;
   height: 450px;
+  float: left;
 
 }
 .side , .top , .court, .court2{
