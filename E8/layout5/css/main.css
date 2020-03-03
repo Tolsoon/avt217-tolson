@@ -12,10 +12,25 @@ body{
     clear: both;
 }
 
+.hugecontainer{
+  width:4200px;
+
+  margin: 100px auto;
+
+
+}
 
 .container{
-  width:1000px;
-  margin: 100px auto;
+  width:1400px;
+  height: 2800px;
+  float left;
+
+}
+
+.container2{
+  width:1400px;
+height: 2800px;
+  float left;
 
 }
 
@@ -56,7 +71,7 @@ body{
 
 }
 
-.containera, .containerd, .containerab, .containerbbe , .containerc, .containeraa, .containeraad{
+.containera, .containerd, .containerab, .containerbbe , .containerc, .containeraa, .containeraad , .containerabaad , .containerabdd,.containerbb,.containerbbbbbb{
   float: left;
 }
 
@@ -65,8 +80,8 @@ body{
   height: 200px;
 }
 .containerc{
-  width: 225px;
-  height: 350px;
+  width: 350px;
+  height: 700px;
 }
 
 .containerab{
@@ -75,8 +90,8 @@ body{
 }
 
 .containerbbe{
-  height: 550px;
-  width: 250px;
+  height: 700px;
+  width: 350px;
 
 }
 
@@ -89,4 +104,24 @@ body{
 .containeraa{
   width: 150px;
   height: 350px;
+}
+
+.containerabaad{
+  width: 350px;
+  height: 700px;
+}
+
+.containerabdd{
+  width: 350px;
+  height: 700px;
+}
+
+.containerbb{
+  width:350px;
+  height: 232
+}
+
+.containerbbbbbb{
+  width: 350px;
+  height: 700px;
 }
