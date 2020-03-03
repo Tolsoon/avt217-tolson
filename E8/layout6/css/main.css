@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  background-color: lime;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container{
+  width:800px;
+  margin: 100px auto;
+
+
+}
+.sidecontainer{
+width: 100px;
+height: 400px;
+float: left;
+}
+.smallcontainer{
+
+  width: 600px;
+  height: 400px;
+  float: left;
+
+}
+.side , .top , .court, .court2{
+  float: left;
+}
+
+.side{
+  width: 100px;
+  height: 400px;
+  background-color: red;
+  border: 5px solid white;
+}
+
+.top{
+  width: 600px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid white;
+}
+.court{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border: 5px solid white;
+}
+
+.court2{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border: 5px solid white;
+}
