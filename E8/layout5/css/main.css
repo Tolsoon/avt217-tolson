@@ -2,38 +2,91 @@ body{
   margin:0;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
 .container{
-  width:800px;
+  width:1000px;
   margin: 100px auto;
 
 }
 
-.header , .bigtext, .textsubhead, .righttext{
+.a, .b , .c, .d, .e{
   background-color: red;
   float: left;
 }
 
-.header{
-  width:800px;
-  height: 200px;
-  margin-bottom: 100px;
+.a{
+  width: 100px;
+  height: 150px;
+  margin: 25px 25px 25px 25px;
+
+}
+.b{
+  width: 100px;
+  height: 150px;
+  margin: 25px 25px 25px 0px;
+
 }
 
-
-.bigtext{
-  height: 300px;
-  width:300px;
-  margin-right: 25px;
-  margin-bottom: 25px;
-}
-
-.textsubhead{
-  height: 50px;
-  width:575px;
-  margin-bottom: 100px;
-}
-.righttext{
+.c{
   width: 200px;
-  height: 250px;
+  height: 450px;
+  margin: 25px 25px 0px 25px;
 
+}
+.d{
+  width: 100px;
+  height: 300px;
+  margin: 25px 25px 0px 25px;
+
+}
+.e{
+  width: 200px;
+  height: 300px;
+  margin: 25px 25px 0px 25px;
+
+}
+
+.containera, .containerd, .containerab, .containerbbe , .containerc, .containeraa, .containeraad{
+  float: left;
+}
+
+.containera{
+  width: 150px;
+  height: 200px;
+}
+.containerc{
+  width: 225px;
+  height: 350px;
+}
+
+.containerab{
+  width: 275px;
+  height: 200px;
+}
+
+.containerbbe{
+  height: 550px;
+  width: 250px;
+
+}
+
+.containerd{
+
+  height: 350px;
+  width: 125px;
+}
+
+.containeraa{
+  width: 150px;
+  height: 350px;
 }
