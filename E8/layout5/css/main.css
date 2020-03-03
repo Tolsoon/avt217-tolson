@@ -1,5 +1,10 @@
 body{
   margin:0;
+  background-color: lime;
+}
+
+*{
+  box-sizing: border-box;
 }
 
 .clearfix:before,
@@ -21,15 +26,15 @@ body{
 }
 
 .container{
-  width:1400px;
-  height: 2800px;
+  width:800px;
+
   float left;
 
 }
 
 .container2{
-  width:1400px;
-height: 2800px;
+  width:800px;
+
   float left;
 
 }
@@ -42,32 +47,32 @@ height: 2800px;
 .a{
   width: 100px;
   height: 150px;
-  margin: 25px 25px 25px 25px;
+  border: 5px solid white;
 
 }
 .b{
   width: 100px;
   height: 150px;
-  margin: 25px 25px 25px 0px;
+  border: 5px solid white;
 
 }
 
 .c{
   width: 200px;
   height: 450px;
-  margin: 25px 25px 0px 25px;
+  border: 5px solid white;
 
 }
 .d{
   width: 100px;
   height: 300px;
-  margin: 25px 25px 0px 25px;
+  border: 5px solid white;
 
 }
 .e{
   width: 200px;
   height: 300px;
-  margin: 25px 25px 0px 25px;
+  border: 5px solid white;
 
 }
 
@@ -80,35 +85,35 @@ height: 2800px;
   height: 200px;
 }
 .containerc{
-  width: 350px;
-  height: 700px;
+  width: 200px;
+  height: 450px;
 }
 
 .containerab{
-  width: 275px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
 }
 
 .containerbbe{
-  height: 700px;
-  width: 350px;
+  width: 200px;
+  height: 450px;
 
 }
 
 .containerd{
 
-  height: 350px;
-  width: 125px;
+  height: 300px;
+  width: 100px;
 }
 
 .containeraa{
-  width: 150px;
-  height: 350px;
+  width: 100px;
+  height: 300px;
 }
 
 .containerabaad{
-  width: 350px;
-  height: 700px;
+  width: 200px;
+  height: 450px;
 }
 
 .containerabdd{
