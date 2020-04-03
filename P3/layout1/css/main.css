@@ -1,0 +1,105 @@
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+
+@media only screen and (max-width: 1000px) {
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body{
+  background-color: yellow;
+}
+h1{
+  font-size: 50px;
+
+}
+h2{
+  color:#C1D42F;
+  font-size: 50px;
+}
+
+h3{
+  color:white;
+
+  font-family: Pitch Display;
+}
+
+h4{
+  color:navy;
+  font-family: Pitch Display;
+
+}
+
+h5{
+  color:navy;
+  font-family: Segoe UI
+}
+
+p{
+  font-size: 70px;
+  text-align: center;
+  font-family: Segoe UI;
+
+}
+
+
+.imgR{
+  position: relative;
+  left: 1115px;
+  bottom:300px;
+}
+
+.imgL{
+  position: relative;
+  top: 180px;
+}
+
+.redBlock{
+  background-color: red;
+  width: 720px;
+  height: 900px;
+  float: left;
+}
+
+.blackBlock{
+  background-color: black;
+  width: 720px;
+  height: 900px;
+  float: left;
+}
+
+.navyBlock{
+  background-color: navy;
+  width: 1440px;
+  height: 720px;
+  float: left;
+}
+
+.whiteBlock{
+  background-color: white;
+  width: 1440px;
+  height: 820px;
+  float: left;
+}
+
+.whiteBlock2{
+  background-color: white;
+  width: 1440px;
+  height: 1440px;
+  float: left;
+}
+
+.textBlock{
+
+  width: 800px;
+  height: 500px;
+
+}
