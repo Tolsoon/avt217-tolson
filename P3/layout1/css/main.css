@@ -28,20 +28,24 @@ h2{
 
 h3{
   color:white;
-
+  font-size: 80px;
+  text-align: center;
   font-family: Pitch Display;
 }
 
 h4{
   color:navy;
   font-family: Pitch Display;
+  font-size: 40px;
 
 }
 
 h5{
   color:navy;
   font-family: Segoe UI
+  font-size: 80px;
 }
+
 
 p{
   font-size: 70px;
@@ -50,16 +54,55 @@ p{
 
 }
 
+.end{
+  font-size: 280px;
+  color:white;
+  font-family: Pitch Display;
+  display: inline-block;
+  word-wrap: break-word;
+  text-align: center;
+}
+.redText,.blueText,.yellowText{
+  font-size: 80px;
+  font-style: Segoe UI;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display:inline-block;
 
+}
+.redText{
+  color: red;
+
+}
+.blueText{
+  color:navy;
+}
+.yellowText{
+  color:#C1D42F;
+}
 .imgR{
   position: relative;
-  left: 1115px;
-  bottom:300px;
+  left: 500px;
+  bottom: 550px;
+
+}
+.versus{
+  position: relative;
+  right: 850px;
+  top:600px;
 }
 
 .imgL{
   position: relative;
-  top: 180px;
+  right: 500px;
+  bottom:50px;
+
+}
+
+.video{
+  padding-left: 400px;
 }
 
 .redBlock{
@@ -94,6 +137,13 @@ p{
   background-color: white;
   width: 1440px;
   height: 1440px;
+  float: left;
+}
+
+.whiteBlock3{
+  background-color: white;
+  width: 1440px;
+  height: 1740px;
   float: left;
 }
 

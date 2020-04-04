@@ -4,3 +4,79 @@ img {
   max-width: 100%;
   margin: 25px 0;
 }
+
+body {
+  background-color: darkseagreen;
+  margin: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+h1{
+  padding-left: 20px;
+  font-size: 145px;
+  font-family: PMingLiU-ExtB;
+  color: darkseagreen;
+
+}
+
+h2{
+  padding-left: 20px;
+  font-size: 70px;
+  font-family: PMingLiU-ExtB;
+  color: darkseagreen;
+}
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 60vw;
+
+}
+
+.header
+{
+  padding-top: 50px;
+  padding-bottom: 250px;
+}
+
+.backgroundImage{
+  width: 100%;
+}
+
+.text{
+  padding-left: 20px;
+  width: 50%;
+  font-family: javanese text;
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    background-color: rosybrown;
+  }
+  h1{
+    padding-left: 0px;
+    font-size: 70px;
+    color: rosybrown;
+
+
+  }
+
+  h2{
+    padding-left: 0px;
+    font-size: 30px;
+    color: rosybrown;
+
+  }
+
+  .text{
+    padding-left: 0px;
+    width: 100%;
+
+  }
+
+}
