@@ -44,6 +44,14 @@ h4{
 
 }
 
+h5{
+  color:navy;
+  font-family: Pitch Display;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
 
 
 ul{
@@ -52,8 +60,10 @@ ul{
 
 
 p{
+  margin-top: 55px;
+  margin-left: 20px;
   font-size: 14px;
-  text-align: center;
+
   font-family: Segoe UI;
   color:navy;
   float: left;
@@ -102,24 +112,13 @@ p{
 .yellowText{
   color:#C1D42F;
 }
-.imgR{
-  position: relative;
-  left: 500px;
-  bottom: 550px;
 
-}
 .versus{
   position: relative;
   right: 850px;
   top:600px;
 }
 
-.imgL{
-  position: relative;
-  right: 500px;
-  bottom:50px;
-
-}
 
 .video{
   padding-left: 35%;
@@ -156,7 +155,7 @@ p{
   width: 100%;
   height: 720px;
   float: left;
-  
+
 }
 
 .whiteBlock{
@@ -168,8 +167,8 @@ p{
 
 
 .textBlock{
-
-  width: 20%;
-  float: left;
+  text-align: left;
+  width: 25%;
+  float:left;
 
 }
