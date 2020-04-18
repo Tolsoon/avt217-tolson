@@ -84,7 +84,7 @@ p{
 }
 
 .end{
-  font-size: 280px;
+  font-size: 200px;
   color:white;
   font-family: Pitch Display;
   display: inline-block;
@@ -171,6 +171,14 @@ p{
   float:left;
 
 }
+
+@media only screen and (max-width: 1250px) {
+  .end{
+    font-size: 200px;
+  }
+
+}
+
 @media only screen and (max-width: 1050px) {
   .redText,.blueText,.yellowText{
     font-size: 70px;
@@ -195,7 +203,7 @@ p{
     font-size: 60px;
   }
   .end{
-    font-size: 200px;
+    font-size: 150px;
   }
 
   img{
@@ -208,6 +216,8 @@ p{
     font-size: 50px;
   }
 
+
+
   .h5{
     font-size: 40px;
   }
@@ -218,16 +228,37 @@ p{
     height: 400px;
   }
   .end{
-    font-size: 150px;
+    font-size: 100px;
   }
 
   img{
-    max-width: 35%;
-    max-height: 35%;
+    max-width: 60%;
+    max-height: 60%;
   }
   .redText,.blueText,.yellowText{
     font-size: 40px;
     padding-left: 5px;
     padding-right: 5px;
   }
+
+  #smaller{
+    max-width: 40%;
+    max-height: 40%;
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  img{
+    max-width: 35%;
+    max-height: 35%;
+  }
+  .textBlock{
+    text-align: left;
+    width: 30%;
+    float:left;
+
+  }
+
 }
