@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  height: 300vh;
+  background-color: burlywood;
+}
+.desk,.shelfUp,.shelfside{
+  background-color: white;
+}
+.desk{
+  position:fixed;
+  left: 200px;
+  top:200px;
+  height: 200px;
+  width:400px;
+
+}
+
+.deskLeg{
+  position:relative;
+  height:150px;
+  width:350px;
+  background-color: burlywood;
+
+  top:50px;
+}
+
+.shelfUp{
+  position: relative;
+  left: 100px;
+  bottom:25px;
+  width:25px;
+  height:150px;
+
+}
+
+.shelfside{
+  position: relative;
+  top: 50px;
+  width:100px;
+  height:25px;
+}
+
+.screen{
+  position:fixed;
+  left: 400px;
+  top: 75px;
+  height: 100px;
+  width:200px;
+  background-color: black;
+
+}
+.screen2{
+  position:relative;
+top:10px;
+left:10px;
+  height: 80px;
+  width:180px;
+  background-color: burlywood;
+
+}
+
+.stand{
+  position:fixed;
+  left: 485px;
+  top: 175px;
+  height: 50px;
+  width:25px;
+  background-color: black;
+
+}
+
+.comp{
+  position:fixed;
+  left: 210px;
+  top:50px;
+  height: 150px;
+  width:90px;
+  background-color: black;
+
+}
+
+
+.desk2{
+    position:relative;
+    top:2px;
+    left:20px;
+    background-color: white;
+    height: 20px;
+    width:40px;
+}
+
+.deskLeg2{
+
+  position:relative;
+  height:15px;
+  width:35px;
+  background-color: burlywood;
+  top:5px;
+
+}
+
+.shelfUp2{
+  background-color: white;
+  position: relative;
+  left: 10px;
+  bottom:8px;
+  width:4px;
+  height:20px;
+
+}
+
+.shelfside2{
+  position: relative;
+  top: 5px;
+  width:10px;
+  height:3px;
+  background-color: white;
+
+}
+
+.screen3{
+  position:relative;
+top:19px;
+left:45px;
+  height: 8px;
+  width:15px;
+  background-color: black;
+
+}
+
+.stand2{
+  position:relative;
+top:18px;
+left:52px;
+  height: 3px;
+  width:2px;
+  background-color: black;
+}
+
+.comp2{
+  position:relative;
+  left: 21px;
+  top:5px;
+  height: 15px;
+  width:8px;
+  background-color: black;
+}
+
+.screen4{
+  position:relative;
+top:0.5px;
+left:1px;
+  height: 6.5px;
+  width:12.5px;
+  background-color: burlywood;
+
+}
