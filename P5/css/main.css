@@ -15,11 +15,17 @@ body{
   margin: 10% 10% 10% 10%;
   background-color: blue;
 }
-
+.switch{
+  background-color: red;
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float:left;
+}
 .slots{
   background-color: purple;
   position: relative;
-  width: 33.33%;
+  width: 25%;
   height: 100%;
   float:left;
 }
