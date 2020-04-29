@@ -21,6 +21,13 @@ function addHidden(array){
 
 }
 
+function checkWin(number1,number2,number3){
+  if(number1 == number2 && number1 == number3){
+      return true;
+    }
+
+}
+
 function lever(){
       var number1 = Math.floor(Math.random() * 3);
       var number2 = Math.floor(Math.random() * 3);
@@ -72,15 +79,10 @@ function lever(){
           $(slotArray3[2]).removeClass('hidden');
         }
 
-        if(number1 == 0 && number2 == 0 && number3 == 0){
+        if(checkWin(number1,number2,number3)){
           $('.win').removeClass('hidden');
         }
-        if(number1 == 1 && number2 == 1 && number3 == 1){
-          $('.win').removeClass('hidden');
-        }
-        if(number1 == 2 && number2 == 2 && number3 == 2){
-          $('.win').removeClass('hidden');
-        }
+
 
 
 
