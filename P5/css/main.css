@@ -10,18 +10,44 @@ body{
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  
+
   background-color: blue;
 }
 .switch{
-  background-color: red;
+  background-color: lightgrey;
   position: relative;
   width: 25%;
   height: 100%;
   float:left;
+  border-color: grey;
+  border-width: thick;
+  border-style: solid;
+}
+
+.handle{
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  background-color: grey;
+  width: 10%;
+  height: 55%;
+}
+
+.ball{
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  width:120px;
+  height: 120px;
+  left:25%;
+  top:20px;
+
 }
 .slots{
-  background-color: purple;
+  background-color: lightgrey;
+  border-color: grey;
+  border-width: thick;
+  border-style: solid;
   position: relative;
   width: 25%;
   height: 100%;
@@ -42,13 +68,29 @@ body{
   top: calc(50% - 50px);
 }
 .square, .square2, .square3 {
-  background-color: red;
+  background-color: blue;
 }
 .seven, .seven2, .seven3 {
-  font-size: 50px;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
   background-color: green;
 }
 .circle, .circle2, .circle3 {
   background: yellow;
   border-radius: 50%;
+}
+
+.pull{
+  background-color: none;
+  position: absolute;
+  top: 90%;
+  left:5%;
+  font-size: 50px;
+}
+
+.win{
+  position: absolute;
+  font-size: 500px;
+  text-align: center;
 }
